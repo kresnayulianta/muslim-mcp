@@ -65,6 +65,63 @@ Set `MCP_API_KEY` environment variable to lock the server:
 Authorization: Bearer your-api-key
 ```
 
+## How to Use
+
+Once connected to Claude Desktop or any MCP-compatible client, you can ask Claude questions about prayer times, the Quran, Hijri calendar, and daily ibadah.
+
+### Prayer Times
+
+```
+"Jadwal sholat hari ini di Jakarta"
+"Kapan sholat Ashar di Bandung besok?"
+"Tampilkan jadwal sholat bulan ini untuk Surabaya"
+"Sholat apa yang selanjutnya dan berapa menit lagi?"
+"Jam berapa Dhuha dan Tahajjud malam ini?"
+```
+
+### Fasting & Daily Checklist
+
+```
+"Apakah hari ini ada puasa sunnah?"
+"Buatkan checklist ibadah harian saya untuk hari ini"
+"Apakah perlu kirimkan reminder sholat sekarang?"
+```
+
+### Quran
+
+```
+"Tampilkan Surah Al-Fatihah beserta terjemahannya"
+"Cari ayat Quran tentang sabar"
+"Ayat berapa hari ini? (daily ayah)"
+"Tampilkan semua surah di Juz 30"
+"Bacakan ayat Al-Baqarah 255 (Ayat Kursi)"
+```
+
+### Hijri Calendar & Islamic Events
+
+```
+"Tanggal Hijriyah hari ini berapa?"
+"Konversi 17 Agustus 2025 ke Hijriyah"
+"Tampilkan kalender Hijriyah bulan ini"
+"Apa saja hari besar Islam tahun 1446 H?"
+```
+
+### Tadarus Tracker
+
+```
+"Catat tadarus saya hari ini: Surah Al-Baqarah sampai ayat 50"
+"Berapa progress tadarus saya dan kapan khatam?"
+"Set target khatam Al-Quran sebelum akhir Ramadan"
+```
+
+### Islamic Quotes
+
+```
+"Berikan quote Islam tentang ikhlas"
+"Quote Al-Quran untuk memulai hari"
+"Tampilkan hadith tentang sholat"
+```
+
 ## Environment Variables
 
 ```bash
