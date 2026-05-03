@@ -33,13 +33,21 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server for Isl
 
 ## Usage
 
-### npx — stdio mode (Claude Desktop, Cursor, etc.)
+### npx — stdio mode
 
 ```bash
 npx -y @kresnayulianta/muslim-mcp
 ```
 
-**Claude Desktop** (`~/Library/Application Support/Claude/claude_desktop_config.json`):
+## Usage with Claude
+
+No API keys or authentication required — just add to your client config.
+
+### Claude Desktop
+
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
+**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
 ```json
 {
   "mcpServers": {
@@ -49,6 +57,27 @@ npx -y @kresnayulianta/muslim-mcp
     }
   }
 }
+```
+
+### Cursor
+
+Add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (per project):
+
+```json
+{
+  "mcpServers": {
+    "muslim": {
+      "command": "npx",
+      "args": ["-y", "@kresnayulianta/muslim-mcp"]
+    }
+  }
+}
+```
+
+### Claude Code
+
+```bash
+claude mcp add muslim -- npx -y @kresnayulianta/muslim-mcp
 ```
 
 ### HTTP server mode
