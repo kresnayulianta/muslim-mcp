@@ -8,6 +8,10 @@
   "files": [
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kresnayulianta/muslim-mcp"
+  },
   "publishConfig": {
     "access": "public"
   },
